@@ -1,0 +1,280 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+
+ 	ul.menu-items  {
+		  list-style-type:none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color:#f4ec88;
+		}
+
+		ul.menu-items{
+		  text-align: left;
+
+		}
+
+		ul.menu-items li{
+		  text-align: center;
+		  display:inline-block;
+
+		}
+
+		ul.menu-items li a {
+
+			display:inline-block;
+			font-size: 18px;
+		  color: white;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+			color:red;
+
+		}
+
+		ul.menu-items li a:hover {
+		  background-color: #111;
+
+
+		}
+
+		.heading-font {
+		  font-family: "Comic Sans MS", cursive, sans-serif;
+			color:#c00000;
+			display:block;
+		}
+
+		.left-sidebar table{
+		  background-color: #D3D3D3;
+		  border:3px solid black;
+		  margin: 3px;
+		  padding: 15px;
+
+		}
+
+		.right-sidebar table{
+		  background-color: #D3D3D3;
+		  border:2px solid black;
+		  margin: 3px;
+		  padding: 10px;
+		}
+
+		.center-content{
+		  margin: 4px;
+		  padding: 5px;
+		  border:3px solid black;
+		}
+
+		.heading-font{
+		  text-transform:uppercase;
+
+		}
+		body{
+			color :	#000000;
+		}
+
+	</style>
+</head>
+<body style="background-color:#ADD8E6;">
+<table cellpadding="4" cellspacing="0" border="0" width="100%">
+	<tbody>
+	<tr>
+		<td colspan="3" valign="top" width="100%" style="text-align: center;">
+			<div>
+				<p class="heading-font"><strong>
+					Indian Electricity Pay Counter
+
+				</p>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3" valign="top" width="100%">
+			<ul class="menu-items">
+			  <li><a class="active" href="#home">Home</a></li>
+			  <li><a href="#about">About</a></li>
+			  <li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" height="100%" width="25%">
+			<table class="left-sidebar" width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tbody>
+					<tr>
+						<td>
+							<table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom:10px;">
+								<tbody>
+									<tr>
+										<td valign="top">
+											<div>
+												<form action="" method="post">
+												  <div class="imgcontainer">
+													Login
+												  </div>
+
+												  <div class="container">
+													<label for="uname"><strong><b>Username</b></label>
+													<input type="text" placeholder="Enter Username" name="uname" required><br><br>
+
+													<label for="psw"><b>Password</b></label>
+													<input type="password" placeholder="Enter Password" name="psw" required>
+
+													<div> <br>
+														<button type="submit" onclick="login();">Login</button>
+														<button type="reset">Reset</button>
+													</div>
+												  </div>
+
+												  <div class="container">
+													  <span class="psw">
+															<a href="#">Forgot password?</a>
+													  </span>
+												  </div>
+												</form>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tbody>
+									<tr>
+										<td valign="top">
+											<div><strong>FAQ</div>
+											<div>
+												<ol>
+												  <li><a href="#">Question 1 </a></li><br>
+												  <li><a href="#">Question 2</a></li><br>
+												  <li><a href="#">Question 3</a></li>
+												</ol>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+		<td width="50%">
+			<table class="center-content" cellpadding="4" cellspacing="0" border="0" width="100%" height="100%">
+				<tbody>
+					<tr>
+						<td colspan="2" valign="top" width="100%">
+							<table width="100%" cellpadding="0" cellspacing="0" border="0">
+								<tbody>
+									<tr>
+										<td valign="top">
+											<div>
+												Conserving electricity serves the double purpose of helping stop global warming and saving a lot of money over time. Take a look around your home and office: any appliance that operates on electricity can be made more energy efficient. Insulating your home and changing your daily habits are also effective ways to reduce the amount of electricity you use. Read on for more details on how to save electricity.
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<div>
+												Embrace natural light. Open up your curtains and let the sun shine in! Using natural light whenever possible instead of relying on artificial light can greatly reduce the amount of electricity you use during the day. The same is true whether you work in an office or spend your days in your house. Exposure to natural light also increases happiness, giving you an even greater incentive to raise the blinds.
+												Try to arrange your workspace so that natural light floods your desk. Keep the overhead lights off when possible. When you need extra lighting, use a low-powered desk lamp instead.
+												Buy curtains or blinds in a light shade. They will still allow light to come through, but also provide privacy when you need it.
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<div>
+												Change your bulbs. Replacing regular incandescent light bulbs with compact fluorescent (CFL) or LED bulbs is a big energy saver. Incandescent bulbs release 98% of their consumed energy through heat, while CFL and LED bulbs are much more energy efficient and last several times longer.[3]
+												CFL bulbs were the first alternative to incandescent bulbs, and they use only about 1/4 the energy of incandescent bulbs. They contain trace amounts of mercury, so they must be disposed of properly when they burn out.
+												LED bulbs are newer to the market. They're more expensive than CFLs, but they last longer and don't contain mercury.
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+		<td valign="top" height="100%" width="25%">
+			<table  class="right-sidebar" width="100%" cellpadding="0" cellspacing="0" border="0">
+				<tbody>
+					<tr>
+						<td valign="top">
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tbody>
+									<tr>
+										<td valign="top">
+											<div>
+												<span><strong>Quick Links</span>
+											</div>
+											<div>
+												<ol>
+												  <li><a href="#">Pay your bill here</a></li><br>
+												  <li><a href="#">consumption History</a></li><br>
+												  <li><a href="#">new connection</a></li>
+												</ol>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tbody>
+									<tr>
+										<td valign="top">
+											<div>
+												<span><strong>High Consumption States</span>
+											</div>
+											<div>
+												<ol><strong>
+												  <li><a href="#">State 1</a></li><br>
+												  <li><a href="#">State 2</a></li><br>
+												  <li><a href="#">State 3</a></li>
+												</ol>
+											</div>
+											<div style="float:right;">
+												<span>
+													<a href="#">continue>></a>
+												</span>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	</tbody>
+</table>
+<div>
+<script type="text/javascript">
+	function login(){
+		alert("Our servers have been affected by CORONA VIRUS. Please try again later");
+	}
+</script>
+</body>
+</html>
